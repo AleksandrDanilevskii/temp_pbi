@@ -2,8 +2,8 @@ source('./r_files/flatten_HTML.r')
 
 ############### Library Declarations ###############
 libraryRequireInstall("ggplot2");
-libraryRequireInstall("plotly")
-libraryRequireInstall("purrr")
+libraryRequireInstall("plotly");
+libraryRequireInstall("purrr");
 
 #libraryRequireInstall("stringi")
 #Sys.setlocale(category = "LC_ALL", locale = 'Russian_Russia.1251')
@@ -49,15 +49,13 @@ color <- function(max,min,res){
 }
 
 Values$valColor <- pmap(list(Values$max, Values$min, Values$result_float), color)
-dec <- function(){
-  from <- "utf-8"
-  to <- "windows-1251"
-  Values$X <- iconv(Values$X, to=to, from=from)
-  Values$nom_title <- iconv(Values$nom_title, to=to, from=from)
-  Values$point <- iconv(Values$point, to=to, from=from)
-  Values$requirement <- iconv(Values$requirement, to=to, from=from)
-}
-dec()
+
+#from <- "utf-8"
+#to <- "windows-1251"
+#Values$X <- iconv(Values$X, to=to)#, from=from)
+#Values$nom_title <- iconv(Values$nom_title, to=to)#, from=from)
+#Values$point <- iconv(Values$point, to=to)#, from=from)
+#Values$requirement <- iconv(Values$requirement, to=to)#, from=from)
 
 x <- Values$X
 trace_max <- Values$maxV

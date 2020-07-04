@@ -5,9 +5,9 @@ import VisualConstructorOptions = powerbiVisualsApi.extensibility.visual.VisualC
 var powerbiKey: any = "powerbi";
 var powerbi: any = window[powerbiKey];
 
-var qualitybySeries2B28A7A7F25E47BC907216217B70708F: IVisualPlugin = {
-    name: 'qualitybySeries2B28A7A7F25E47BC907216217B70708F',
-    displayName: 'QualitybySeries',
+var exampleQualitybySeriesCC63AC1E21C2425F8F853453133FB7E6: IVisualPlugin = {
+    name: 'exampleQualitybySeriesCC63AC1E21C2425F8F853453133FB7E6',
+    displayName: 'Example_Quality_by_Series',
     class: 'Visual',
     apiVersion: '2.6.0',
     create: (options: VisualConstructorOptions) => {
@@ -23,7 +23,7 @@ var qualitybySeries2B28A7A7F25E47BC907216217B70708F: IVisualPlugin = {
 if (typeof powerbi !== "undefined") {
     powerbi.visuals = powerbi.visuals || {};
     powerbi.visuals.plugins = powerbi.visuals.plugins || {};
-    powerbi.visuals.plugins["qualitybySeries2B28A7A7F25E47BC907216217B70708F"] = qualitybySeries2B28A7A7F25E47BC907216217B70708F;
+    powerbi.visuals.plugins["exampleQualitybySeriesCC63AC1E21C2425F8F853453133FB7E6"] = exampleQualitybySeriesCC63AC1E21C2425F8F853453133FB7E6;
 }
 
-export default qualitybySeries2B28A7A7F25E47BC907216217B70708F;
+export default exampleQualitybySeriesCC63AC1E21C2425F8F853453133FB7E6;

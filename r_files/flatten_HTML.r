@@ -22,6 +22,7 @@ FlattenHTML <- function(fnameIn, fnameOut)
   
   if(!file.exists(fnameIn))
     return(FALSE)
+  
   dir = dirname(fnameIn)
   html = htmlTreeParse(fnameIn, useInternal = TRUE)
   top = xmlRoot(html)

@@ -1,14 +1,14 @@
 {
     "version": "1.0.0",
-    "author": {"name":"Danilevsky Alexnder","email":"danilevskii@biocad.ru"},
+    "author": {"name":"Alexander Danilesky","email":"danilevskii@biocad.ru"},
     "resources": [
         {
             "resourceId": "rId0",
             "sourceType": 5,
-            "file": "resources/qualitybySeries2B28A7A7F25E47BC907216217B70708F.pbiviz.json"
+            "file": "resources/exampleQualitybySeriesCC63AC1E21C2425F8F853453133FB7E6.pbiviz.json"
         }
     ],
-    "visual": {"name":"qualitybySeries","displayName":"QualitybySeries","guid":"qualitybySeries2B28A7A7F25E47BC907216217B70708F","visualClassName":"Visual","version":"1.0.0","description":"Quality by series (without comparison)","supportUrl":"https://biocad.ru/","gitHubUrl":""},
+    "visual": {"name":"exampleQualitybySeries","displayName":"Example_Quality_by_Series","guid":"exampleQualitybySeriesCC63AC1E21C2425F8F853453133FB7E6","visualClassName":"Visual","version":"1.0.0","description":"Example_Quality_by_Series","supportUrl":"www.biocad.ru","gitHubUrl":""},
     "metadata": {
         "pbivizjson": {
             "resourceId": "rId0"

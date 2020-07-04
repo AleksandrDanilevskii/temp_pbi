@@ -1,4 +1,4 @@
 import powerbiVisualsApi from "powerbi-visuals-api";
 import IVisualPlugin = powerbiVisualsApi.visuals.plugins.IVisualPlugin;
-declare var qualitybySeries2B28A7A7F25E47BC907216217B70708F: IVisualPlugin;
-export default qualitybySeries2B28A7A7F25E47BC907216217B70708F;
+declare var exampleQualitybySeriesCC63AC1E21C2425F8F853453133FB7E6: IVisualPlugin;
+export default exampleQualitybySeriesCC63AC1E21C2425F8F853453133FB7E6;

@@ -135,7 +135,7 @@ export class Visual implements IVisual {
         let el: HTMLHtmlElement = document.createElement("html");
         try {
             // tslint:disable-next-line
-            el.innerHTML = decodeURIComponent(escape(window.atob(payloadBase64)));//el.innerHTML = window.atob(payloadBase64);
+            el.innerHTML = window.atob(payloadBase64);
         } catch (err) {
             return;
         }
